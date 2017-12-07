@@ -1,0 +1,320 @@
+.root {
+-fx-background-image: url("background.jpg");
+}
+
+ .button {
+-fx-text-fill:whitesmoke;
+-fx-font-family: "Arial Narrow";
+-fx-font-weight: bold;
+-fx-background-color: linear-gradient(#B3843A, #B3843A);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+-fx-padding:5 ;
+}
+ .button:hover {
+-fx-background-color: linear-gradient( black, black);
+
+}
+
+button {
+-fx-text-fill: white;
+-fx-font-family: "Arial Narrow";
+-fx-font-weight: bold;
+-fx-background-color: linear-gradient(#565657, #4F5152);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+-fx-padding:7px;
+}
+button:hover {
+-fx-background-color: linear-gradient(black, black);
+
+}
+
+#actiontarget {
+-fx-fill: FIREBRICK;
+-fx-font-weight: bold;
+-fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+-fx-font-size:100px;
+-fx-font-boreder:2px;
+-fx-font-color:#F6FF00;
+-fx-background-color: linear-gradient(#F6FF00, #FF0000);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+-fx-font-align:centre;
+}
+
+#actiontargetR {
+-fx-fill: #00FF0C;
+-fx-font-weight: bold;
+-fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+-fx-font-size:100px;
+-fx-font-boreder:2px;
+-fx-font-color:#F6FF00;
+-fx-background-color: linear-gradient(#F6FF00, #FF0000);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+-fx-font-align:centre;
+}
+
+
+.label {
+-fx-font-size: 20px;
+-fx-font-weight: bold;
+-fx-text-fill: #333333;
+-fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+.toggle-button {
+    -fx-font-size: 20px;
+-fx-font-weight: bold;
+-fx-text-fill: black;
+-fx-base:#39ADD9;
+-fx-background:transparent;
+-fx-focus-color:#B3843A;
+-fx-border-color:#B3843A;
+-fx-effect:dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );;
+}
+.toggle-button-selected{
+    -fx-font-size: 20px;
+-fx-font-weight: bold;
+    -fx-text-fill: black;
+-fx-base:#B3843A;
+-fx-background:#B3843A;
+-fx-focus-color:#B3843A;
+-fx-border-color:#B3843A;
+-fx-effect:dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );;
+}
+
+.combo-box-base {
+     -fx-text-fill: white;
+    -fx-font-size: 15px;
+-fx-font-weight: bold;
+-fx-body-color:#B3843A;
+-fx-color:#B3843A;
+-fx-effect:dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+    
+}
+
+.radio-button {
+-fx-fill: FIREBRICK;
+-fx-text-fill:rgba(0,0,0,0.5);
+-fx-font-size: 15px;
+-fx-font-weight: bold;
+-fx-body-color:#B3843A;
+-fx-color:#B3843A;
+
+-fx-effect:dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+    
+    
+}
+
+#btnq1
+{
+    -fx-background-color: linear-gradient(transparent,transparent);
+    -fx-border-width:0px;
+}
+#btnq1:hover{
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 5 , 1 );
+    -fx-background-color: linear-gradient(black,black);
+}
+
+#eq3btn {
+ 
+-fx-font-family: "Candara";
+-fx-text-fill:black;
+-fx-font-weight: bold;
+-fx-font-size:13px;
+-fx-background-color: linear-gradient(#F0F0F0, #DEDDDE);
+-fx-background-radius: 50 50 50 50;
+-fx-background-insets: 5 5 5 5 ;
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 1, 0.0 , 3 , 1 );
+-fx-padding:20px 20px 20px 20px;
+-fx-border-width:0px;
+
+}
+
+#eq3btn:hover {
+-fx-font-family: "Candara";
+-fx-text-fill:white;
+ -fx-background-color: linear-gradient(#70B1FF, #3A94FE);
+-fx-background-radius: 50 50 50 50;
+-fx-background-insets: 5 5 5 5 ;
+ -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 1, 0.0 , 3 , 1 );
+-fx-font-weight: bold;
+-fx-font-size:13px;
+-fx-padding:20px 20px 20px 20px;
+}
+
+
+#offsetText
+{
+ -fx-fill: BLACK;
+-fx-font-weight: bold;
+
+-fx-font-size:100px;
+-fx-font-boreder:0px;
+-fx-font-color:BLACK;
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+-fx-font-align:centre;
+}
+
+
+
+.menu:hover{
+    -fx-background-color:#B3843A;
+    -fx-body-color:#B3843A;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    
+}
+
+
+#q10btn {
+ 
+-fx-font-family: "Candara";
+-fx-text-fill:whitesmoke;
+-fx-font-weight: bold;
+-fx-font-size:25px;
+-fx-background-color: linear-gradient(#0E0E0E, #000000);
+-fx-background-radius: 2 30 2 30;
+-fx-background-insets: 5 5 5 5 ;
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 5 , 1 );
+-fx-padding:25px 25px 25px 25px;
+-fx-border-width:0px;
+
+}
+
+#q10btn:pressed{
+
+
+-fx-background-radius: 2 30 2 30;
+-fx-background-insets: 5 5 5 5 ;
+}
+
+#q10btn:hover {
+-fx-font-family: "Candara";
+-fx-text-fill:BLACK;
+ -fx-background-color: linear-gradient(#00FF18, #000000);
+-fx-background-radius: 30 2 30 2;
+-fx-background-insets: 5 5 5 5 ;
+ -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+-fx-font-weight: bold;
+-fx-font-size:25px;
+-fx-padding:25px 25px 25px 25px;
+}
+
+#actiontargetB {
+-fx-fill: linear-gradient(#000000, #000000);
+-fx-font-weight: bold;
+-fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+-fx-font-size:100px;
+-fx-font-boreder:2px;
+-fx-font-color:BLUE;
+-fx-background-color: linear-gradient(#00FF18, #000000);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+-fx-font-align:centre;
+}
+#Hscore
+{
+ -fx-fill: linear-gradient(WHITE, WHITE);
+ -fx-opacity:0.5;
+-fx-font-weight: bold;
+-fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+-fx-font-size:20px;
+-fx-font-boreder:2px;
+-fx-font-color:BLUE;
+-fx-background-color: linear-gradient(#00FF18, #000000);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+-fx-font-align:centre;  
+}
+#yrscr
+{
+  -fx-fill: linear-gradient(BLACK, BLACK);
+-fx-font-weight: bold;
+-fx-opacity:0.5;
+-fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+-fx-font-size:25px;
+-fx-font-boreder:2px;
+-fx-font-color:BLUE;
+-fx-background-color: linear-gradient(#00FF18, #000000);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+-fx-font-align:centre;    
+}
+
+#head
+{
+ -fx-fill: linear-gradient(BLACK, BLACK);
+ -fx-opacity:0.5;
+-fx-font-weight: bold;
+-fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+-fx-font-size:20px;
+-fx-font-boreder:2px;
+-fx-font-color:BLUE;
+-fx-background-color: linear-gradient(#00FF18, #000000);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+-fx-font-align:centre;  
+}
+
+#plylist
+{
+-fx-fill: linear-gradient(WHITE, WHITE);
+-fx-opacity:0.5;
+-fx-font-weight: bold;
+-fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+-fx-font-size:15px;
+-fx-font-boreder:2px;
+-fx-font-color:BLUE;
+-fx-background-color: linear-gradient(#00FF18, #000000);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+-fx-font-align:centre;   
+}
+
+#pplayer
+{
+ -fx-fill: linear-gradient(RED, RED);
+-fx-font-weight: bold;
+-fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+-fx-font-size:20px;
+-fx-font-boreder:2px;
+-fx-font-color:BLUE;
+-fx-background-color: linear-gradient(#00FF18, #000000);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+-fx-font-align:centre;   
+}
+
+#gridm
+{
+-fx-padding:5px 5px 5px 5px;
+-fx-background-color: rgba(255,255,255,0.2);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 ); 
+}
+
+#btnscore
+{
+-fx-text-fill:whitesmoke;
+-fx-font-family: "Arial Narrow";
+-fx-font-weight: bold;
+-fx-background-color: rgba(0,0,0,0.5);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+-fx-padding:10 20 10 20 ;
+}
+
+#btnscore:hover
+{
+-fx-text-fill: whitesmoke;
+-fx-background-color: linear-gradient(#A30000, #A30000);
+}
+
+
+#btnclose
+{
+-fx-text-fill:whitesmoke;
+-fx-font-family: "Arial Narrow";
+-fx-font-weight: bold;
+-fx-background-color: linear-gradient(whitesmoke, whitesmoke);
+-fx-opacity: 0.5;
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+-fx-padding:5 ;
+}
+
+#btnclose:hover
+{
+-fx-text-fill: whitesmoke;
+-fx-opacity: 1.0;
+-fx-background-color: linear-gradient(#A30000, #A30000);
+}

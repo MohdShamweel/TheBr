@@ -1,0 +1,379 @@
+.root {
+-fx-background-image: url("background.jpg");
+}
+
+.button {
+-fx-text-fill: white;
+-fx-font-family: "Arial Narrow";
+-fx-font-weight: bold;
+-fx-background-color: linear-gradient(#565657, #4F5152);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+-fx-padding:7px;
+}
+.button:hover {
+-fx-background-color: linear-gradient(black, black);
+
+}
+
+#ballStrike
+{
+-fx-background-color: linear-gradient(#565657, #4F5152);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );  
+}
+
+#ballhold
+{
+-fx-background-color: linear-gradient(#565657,White);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 0.5 );  
+}
+
+#Iq3btn
+{
+    -fx-font-family: "Candara";
+-fx-text-fill:whitesmoke;
+-fx-font-weight: bold;
+-fx-font-size:50px;
+-fx-background-color: linear-gradient(#0E0E0E, #000000);
+-fx-background-radius: 2 30 2 30;
+-fx-background-insets: 5 5 5 5 ;
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 5 , 1 );
+-fx-padding:30px 30px 30px 30px;
+-fx-border-width:0px;
+
+}
+
+#Iq3btn:pressed{
+
+
+-fx-background-radius: 2 30 2 30;
+-fx-background-insets: 5 5 5 5 ;
+}
+
+#Iq3btn:hover {
+-fx-font-family: "Candara";
+-fx-text-fill:BLACK;
+ -fx-background-color: linear-gradient(#0E32A6, #000000);
+-fx-background-radius: 30 2 30 2;
+-fx-background-insets: 5 5 5 5 ;
+ -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+-fx-font-weight: bold;
+-fx-font-size:50px;
+-fx-padding:30px 30px 30px 30px;
+}
+
+#actiontargetB {
+-fx-fill: linear-gradient(#000000, #000000);
+-fx-font-weight: bold;
+-fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+-fx-font-size:90px;
+-fx-font-boreder:2px;
+-fx-font-color:BLUE;
+-fx-background-color: linear-gradient(#00FF18, #000000);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+-fx-font-align:centre;
+}
+   
+#road
+{
+-fx-background-color: linear-gradient(#565657, #4F5152);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );  
+}
+
+#actiontargetT
+{
+ -fx-fill: linear-gradient(orangered, #000000);
+-fx-font-weight: bold;
+-fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+-fx-font-size:50px;
+-fx-font-boreder:2px;
+-fx-font-color:BLUE;
+-fx-background-color: linear-gradient(#00FF18, #000000);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+-fx-font-align:centre;   
+}
+
+#roadcircle
+{
+-fx-background-color: linear-gradient(#565657, #4F5152);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );  
+}
+
+#flyname
+{
+    -fx-fill: linear-gradient(#FF0303, #000000);
+-fx-font-weight: bold;
+-fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+-fx-font-size:30px;
+-fx-font-boreder:2px;
+-fx-font-color:BLUE;
+-fx-background-color: linear-gradient(#00FF18, #000000);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+-fx-font-align:centre;
+}
+
+#flyname2
+{
+    -fx-fill: linear-gradient(black, #000000);
+-fx-font-weight: bold;
+-fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+-fx-font-size:25px;
+-fx-font-boreder:2px;
+-fx-font-color:BLUE;
+-fx-background-color: linear-gradient(#00FF18, #000000);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+-fx-font-align:centre;
+}
+
+#flyname3
+{
+-fx-fill: linear-gradient(#BCBEBA, #000000);
+-fx-font-weight: bold;
+-fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+-fx-font-size:20px;
+-fx-font-boreder:2px;
+-fx-font-color:BLUE;
+-fx-background-color: linear-gradient(#00FF18, #000000);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+-fx-font-align:centre;
+}
+
+#advtext
+{
+-fx-fill: rgba(255,255,255,0.5);
+-fx-font-weight: bold;
+-fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+-fx-font-size:90px;
+-fx-font-boreder:2px;
+-fx-font-color:BLUE;
+-fx-background-color: linear-gradient(#00FF18, #000000);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+-fx-font-align:centre;  
+}
+
+
+#keyboardbtn {
+-fx-text-fill:black;
+-fx-font-family: "Arial Narrow";
+-fx-font-weight: bold;
+-fx-background-color: rgba(255,255,255,0.5);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+-fx-padding:10px;
+}
+#keyboardbtn:hover {
+-fx-text-fill: whitesmoke;
+-fx-background-color: linear-gradient(#000000, #000000);
+}
+
+#flowtext
+{
+-fx-fill: rgba(255,255,255,0.5);
+-fx-font-weight: bold;
+-fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+-fx-font-size:40px;
+-fx-font-boreder:2px;
+-fx-font-color:BLUE;
+-fx-background-color: linear-gradient(#00FF18, #000000);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+-fx-font-align:centre;  
+}
+
+#flowtextOver
+{
+-fx-fill: rgba(255,255,255,0.5);
+-fx-font-weight: bold;
+-fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+-fx-font-size:40px;
+-fx-font-boreder:2px;
+-fx-font-color:BLUE;
+-fx-background-color: linear-gradient(#00FF18, #000000);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+-fx-font-align:centre;  
+}
+
+
+#flowtextOverB
+{
+-fx-fill: rgba(0,0,0,0.2);
+-fx-font-weight: bold;
+-fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+-fx-font-size:15px;
+-fx-font-boreder:2px;
+-fx-font-color:BLUE;
+-fx-background-color: linear-gradient(#00FF18, #000000);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+-fx-font-align:centre;  
+}
+
+#flowtextOverBD
+{
+-fx-fill: rgba(0,0,0,0.4);
+-fx-font-weight: bold;
+-fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+-fx-font-size:40px;
+-fx-font-boreder:2px;
+-fx-font-color:BLUE;
+-fx-background-color: linear-gradient(#00FF18, #000000);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+-fx-font-align:centre;  
+}
+
+#keyboardbtn6 {
+-fx-text-fill:whitesmoke;
+-fx-font-family: "Arial Narrow";
+-fx-font-weight: bold;
+-fx-background-color: rgba(0,0,0,0.5);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+-fx-padding:10px;
+}
+#keyboardbtn6:hover {
+-fx-text-fill: whitesmoke;
+-fx-background-color: linear-gradient(#000000, #000000);
+}
+
+#colorPicker
+{
+-fx-font-family: "Candara";
+-fx-text-fill:whitesmoke;
+-fx-background-color: rgba(0,0,0,0.1);
+}
+
+#3D
+{
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );   
+}
+
+.date-picker
+{
+   -fx-opacity:0.3;
+   -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+#drag
+{
+-fx-opacity:0.5;
+-fx-text-fill: white;
+-fx-font-family: "Arial Narrow";
+-fx-font-weight: bold;
+-fx-background-color: linear-gradient(#565657, #4F5152);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+-fx-padding:4px;    
+}
+
+#drag:hover
+{
+-fx-opacity: 1.0;
+-fx-background-color: linear-gradient(black, black);  
+}
+
+#rect
+{
+-fx-opacity:0.4;
+-fx-text-fill: white;
+-fx-font-family: "Arial Narrow";
+-fx-font-weight: bold;
+-fx-background-color: linear-gradient(#565657, #4F5152);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+-fx-padding:4px;  
+}
+
+#rect:hover
+{
+ -fx-opacity: 1.0;
+-fx-background-color: linear-gradient(black, black);    
+}
+
+#gridadmin
+{
+
+-fx-opacity:0.4;
+-fx-background-color: linear-gradient(BLACK, BLACK);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );  
+}
+
+#lbl
+{
+-fx-text-fill: white;   
+}
+
+#levelSelectBtn
+{
+-fx-text-fill:whitesmoke;
+-fx-font-family: "Arial Narrow";
+-fx-font-weight: bold;
+-fx-background-color: rgba(0,0,0,0.5);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+-fx-padding:10 20 10 20 ;    
+}
+
+#levelSelectBtn:hover
+{
+-fx-text-fill: whitesmoke;
+-fx-background-color: linear-gradient(#A30000, #A30000);
+}
+
+#levelSbtn
+{
+-fx-text-fill:whitesmoke;
+-fx-font-family: "Arial Narrow";
+-fx-font-weight: bold;
+-fx-background-color: rgba(0,0,0,0.5);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+-fx-padding:10 20 10 20;    
+}
+
+#levelSbtn:hover
+{
+ -fx-text-fill: whitesmoke;
+ -fx-background-color: linear-gradient(#359600, #359600);
+}
+
+#gridlevel
+{
+
+  -fx-padding:30px 30px 30px 30px;
+-fx-background-color: rgba(0,0,0,0.2);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+#gridinfo
+{
+-fx-padding:5px 5px 5px 5px;
+-fx-background-color: rgba(255,255,255,0.2);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );   
+}
+
+#btnclose
+{
+-fx-text-fill:whitesmoke;
+-fx-font-family: "Arial Narrow";
+-fx-font-weight: bold;
+-fx-background-color: linear-gradient(whitesmoke, whitesmoke);
+-fx-opacity: 0.5;
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+-fx-padding:5 ;
+}
+
+#btnclose:hover
+{
+-fx-text-fill: whitesmoke;
+-fx-opacity: 1.0;
+-fx-background-color: linear-gradient(#A30000, #A30000);
+}
+
+#levelExitbtn
+{
+-fx-text-fill:whitesmoke;
+-fx-font-family: "Arial Narrow";
+-fx-font-weight: bold;
+-fx-background-color: linear-gradient(red, red);
+-fx-opacity: 0.5;
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+-fx-padding:3 ;
+}
+
+#levelExitbtn:hover
+{
+-fx-text-fill: whitesmoke;
+-fx-opacity: 1.0;
+-fx-background-color: linear-gradient(black, black);
+}

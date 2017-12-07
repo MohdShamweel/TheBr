@@ -1,0 +1,46 @@
+.button
+{
+-fx-text-fill:whitesmoke;
+-fx-font-family: "Arial Narrow";
+-fx-font-weight: bold;
+-fx-background-color: rgba(0,0,0,0.5);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+-fx-padding:10 20 10 20;    
+}
+
+.button:hover
+{
+ -fx-text-fill: whitesmoke;
+ -fx-background-color: linear-gradient(#359600, #359600);
+}
+
+#3D
+{
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );   
+}
+
+#gridlevel
+{
+
+-fx-padding:30px 30px 30px 30px;
+-fx-background-color: rgba(0,0,0,0.2);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+#levelExitbtn
+{
+-fx-text-fill:whitesmoke;
+-fx-font-family: "Arial Narrow";
+-fx-font-weight: bold;
+-fx-background-color: linear-gradient(red, red);
+-fx-opacity: 0.5;
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+-fx-padding:3 ;
+}
+
+#levelExitbtn:hover
+{
+-fx-text-fill: whitesmoke;
+-fx-opacity: 1.0;
+-fx-background-color: linear-gradient(black, black);
+}

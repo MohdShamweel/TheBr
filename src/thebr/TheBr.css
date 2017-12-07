@@ -1,0 +1,83 @@
+.root {
+-fx-background-image: url("background.jpg");
+}
+
+.button {
+-fx-text-fill: white;
+-fx-font-family: "Arial Narrow";
+-fx-font-weight: bold;
+-fx-background-color: linear-gradient(#A30000, #A30000);
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+-fx-padding:7px;
+}
+.button:hover {
+-fx-background-color: linear-gradient(black, black);
+
+}
+.label{
+-fx-text-fill: #E3E3ED;
+-fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+
+#btntext
+{
+-fx-font-size:40px;    
+-fx-text-fill: whitesmoke;
+-fx-font-family: "Bauhaus 93";
+-fx-font-weight: bold;
+-fx-opacity:0.6;
+-fx-background-color: linear-gradient(BLACK, BLACK);
+-fx-effect: dropshadow( three-pass-box , rgba(1,0,1,0.6) , 5, 0.0 , 0 , 1 );
+-fx-padding:30px 200px 15px 15px;
+-fx-background-radius:50 2 2 2;
+-fx-background-insets: 5 5 5 5 ;
+}
+
+#btntext:hover {
+    -fx-background-color: linear-gradient(black, black);
+    -fx-effect: dropshadow( three-pass-box , rgba(1,0,1,0.6) , 5, 0.0 , 0 , 1 );
+
+}
+
+#btnbrand
+{
+-fx-font-size:10px;    
+-fx-text-fill: whitesmoke;
+-fx-font-family: "Bauhaus 93";
+-fx-font-weight: bold;
+-fx-opacity:0.6;
+-fx-background-color: linear-gradient(BLACK, BLACK);
+-fx-effect: dropshadow( three-pass-box , rgba(1,0,1,0.6) , 5, 0.0 , 0 , 1 );
+-fx-padding:10px 10px 10px 10px;
+-fx-background-radius:2 2 2 2;
+-fx-background-insets: 5 5 5 5 ;
+}
+
+#btnbrand:hover
+{
+-fx-opacity:0.6;
+-fx-background-color: linear-gradient(#A30000, #A30000);
+-fx-effect: dropshadow( three-pass-box , rgba(1,0,1,0.6) , 5, 0.0 , 0 , 1 );   
+}
+
+#gridc
+{
+
+-fx-padding:30px 30px 30px 30px;
+-fx-background-radius:50 2 50 2;
+-fx-background-insets: 5 5 5 5 ;
+-fx-background-color: rgba(0,0,0,0.8);
+-fx-opacity:0.8;
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+#slogo
+{
+    -fx-font-size:15px;
+-fx-fill: linear-gradient(#999A9A, #4F5152);
+-fx-font-weight: bold;
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+-fx-font-boreder:2px;
+-fx-font-color:#F6FF00;
+-fx-background-color: linear-gradient(#999A9A, #4F5152);
+}
