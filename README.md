@@ -1,5 +1,6 @@
 # TheBrainifyApp
-This application uses JavaFx for GUI, it's my first application developed as College Project, similar to Quiz Application but it is a way different, the questions are asked through GUI in combination of animations and user interactions.
+This application uses JavaFx for GUI, this app similar to Quiz Application but it is a way different, the questions are asked through GUI in combination of animations and user interactions.<br>
+Download the .exe file from here: https://drive.google.com/open?id=1E0DMbe-lRgnPKY1sTipxZsuGZ2u4-kIW
 <br>Screenshots: The Brainify App<br>
 ![1](https://user-images.githubusercontent.com/34341190/43644277-db720f94-974b-11e8-99bb-43aecc00d6a3.jpg)
 ![2](https://user-images.githubusercontent.com/34341190/43644278-dc11a5ea-974b-11e8-94e3-588a369b5550.jpg)
