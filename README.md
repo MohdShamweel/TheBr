@@ -1,5 +1,8 @@
 # TheBrainifyApp
 This application uses JavaFx for GUI, this app similar to Quiz Application but it is a way different, the questions are asked through GUI in combination of animations and user interactions.<br>
+<br> For Admin Panel:<br>
+Username: samuel <br>
+Password: shamweel <br>
 Download the .exe file from here: https://drive.google.com/file/d/1E0DMbe-lRgnPKY1sTipxZsuGZ2u4-kIW/view?usp=sharing
 <br>Screenshots: The Brainify App<br>
 ![1](https://user-images.githubusercontent.com/34341190/43644277-db720f94-974b-11e8-99bb-43aecc00d6a3.jpg)
